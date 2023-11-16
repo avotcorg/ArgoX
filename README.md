@@ -4,15 +4,6 @@
 
 # 目录
 
-- [更新信息](README.md#更新信息)
-- [项目特点](README.md#项目特点)
-- [ArgoX for VPS 运行脚本](README.md#argox-for-vps-运行脚本)
-- [Argo Json 的获取](README.md#argo-json-的获取)
-- [Argo Token 的获取](README.md#argo-token-的获取)
-- [各种场景下 xray outbound 和 routing 模板的说明](README.md#各种场景下-xray-outbound-和-routing-模板的说明)
-- [主体目录文件及说明](README.md#主体目录文件及说明)
-- [免责声明](README.md#免责声明)
-
 * * *
 ## 更新信息
 2023.10.25 V1.4 1. Support Reality-Vison and Reality-gRPC, Both are direct connect solutions; 2. Quick-tunnel through the API to check dynamic domain names1; 3. After installing, add [argox] shortcut; 4. Output the configuration for Sing-box Client; 1. 支持 Reality-Vison and Reality-gRPC，两个均为直连方案; 2. 临时隧道通过 API 查动态域名; 3. 安装后，增加 [argox] 的快捷运行方式; 4. 输出 Sing-box Client 的配置
@@ -60,7 +51,7 @@
 ## ArgoX for VPS 运行脚本:
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/argox/main/argox.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/avotcorg/argox/main/argox.sh)
 ```
 
   | Option 参数 | Remark 备注 |
